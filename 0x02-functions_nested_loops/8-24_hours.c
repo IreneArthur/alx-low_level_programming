@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * jack_bauer print every minute of the day
+ * jack_bauer - Print every minute of the day
  *
- * Description: this function prints every minute of the day
- *
- * Return: no return
-*/
+ * Description: This function prints every minute of a day in the format HH:MM.
+ */
 void jack_bauer(void)
 {
 	int a = 0;
