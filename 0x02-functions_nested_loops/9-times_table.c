@@ -19,10 +19,10 @@ void times_table(void)
 		if (b < 9)
 		{
 			printf(", ");
-		}
-		if (c < 10)
+			if (c < 10)
 		{
 			printf(" ");
+		}
 		}
 		b++;
 		}
