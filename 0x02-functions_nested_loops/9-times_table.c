@@ -20,6 +20,10 @@ void times_table(void)
 		{
 			printf(", ");
 		}
+		if (c < 10)
+		{
+			printf(" ");
+		}
 		b++;
 		}
 	printf("\n");
