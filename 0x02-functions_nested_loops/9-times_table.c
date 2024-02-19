@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
-*/
+ * times_table - Print the times table up to 9x9
+ */
 void times_table(void)
 {
 	int a = 0;
