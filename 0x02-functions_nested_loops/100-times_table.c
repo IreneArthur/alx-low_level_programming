@@ -6,11 +6,11 @@ void print_times_table(int n)
 	{
 		int i = 0;
 
-		while (i < n)
+		while (i <= n)
 		{
 			int j = 0;
 
-			while (j < n)
+			while (j <= n)
 			{
 				int m = i * j;
 
@@ -23,7 +23,7 @@ void print_times_table(int n)
 					printf(" ");
 				}
 				printf("%d", m);
-				if (j != n - 1)
+				if (j != n)
 				{
 					printf(", ");
 				}
