@@ -9,7 +9,9 @@ int main(void)
 	int c;
 
 	printf("%d, %d, ", a, b);
-	for (int i = 2; i < 50; i++)
+	int i = 2;
+
+	while (i < 50)
 	{
 		c = a + b;
 		printf("%d", c);
@@ -19,6 +21,7 @@ int main(void)
 		}
 		a = b;
 		b = c;
+		i++;
 	}
 	printf("\n");
 	return (0);
