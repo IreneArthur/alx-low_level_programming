@@ -1,7 +1,11 @@
 #include <stdio.h>
 /**
+ * main - Entry point of the program
  *
-*/
+ * This function prints the first 50 terms of the Fibonacci sequence.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	long int a = 1;
@@ -9,7 +13,7 @@ int main(void)
 	long int c;
 	int i;
 
-	printf("%ld, %ld, ",a ,b );
+	printf("%ld, %ld, ", a ,b);
 	for (i = 2; i < 50; i++)
 	{
 		c = a + b;
