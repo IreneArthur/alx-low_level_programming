@@ -15,10 +15,10 @@ void times_table(void)
 		{
 		int c = a * b;
 
-		printf("%2d", c);
+		printf("%3d", c);
 		if (b < 9)
 		{
-			printf(", ");
+			printf(",");
 			if (c < 10)
 		{
 			/*printf(" ");*/
