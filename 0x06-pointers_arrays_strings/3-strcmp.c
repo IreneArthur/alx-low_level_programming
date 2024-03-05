@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
+
 /**
  * _strcmp - Compares two strings.
  *
