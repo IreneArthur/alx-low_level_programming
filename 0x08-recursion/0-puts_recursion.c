@@ -1,9 +1,13 @@
 #include <stdio.h>
-/*
- * _puts_recursion - Prints a string followed by a new line recursively.
- * @s: The string to be printed.
+/#include "main.h"
+/**
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
+
 void _puts_recursion(char *s)
+ /* Base case: If the current character is '\0' (end of string), */
 {
 	if (*s == '\0')
 	{
